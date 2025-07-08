@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinay Kumar Sain – Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      background: url("background.png");
+      background-size: cover;
+      background-repeat: repeat;
+      background-position: center;
+      color: #f5f5f5;
+    }
+
+    nav {
+      background-color: #3e2723dd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .name {
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffe9b3;
+      font-family: 'MedievalSharp', cursive;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      font-size: 18px;
+    }
+
+    nav ul li a {
+      color: #fffde7;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd369;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+
+    .main h2 {
+      font-size: 44px;
+      font-family: 'MedievalSharp', cursive;
+      color: #fff8dc;
+      text-shadow: 2px 2px 4px black;
+      margin-bottom: 15px;
+    }
+
+    .main p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #f0e6d2;
+    }
+
+    .main button {
+      height: 44px;
+      width: 180px;
+      border-radius: 12px;
+      background-color: #e5c07b;
+      color: #1c0f01;
+      font-size: 17px;
+      font-weight: bold;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .main button:hover {
+      background-color: #ffecb3;
+      color: #000;
+    }
+
+    .main button a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .chess-quote {
+      margin: 30px auto;
+      text-align: center;
+      font-style: italic;
+      color: #e5d5aa;
+      font-size: 18px;
+    }
+
+    .chess-divider {
+      margin: 20px auto;
+      height: 6px;
+      width: 60%;
+      background: repeating-linear-gradient(90deg, #8b5a2b 0 10px, #fff8e1 10px 20px);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="name">♔ VINAY KUMAR SAIN</div>
+    <ul>
+      <li><a href="info.html#about"><i class="fas fa-chess-knight"></i> About</a></li>
+      <li><a href="info.html#skills"><i class="fas fa-chess-rook"></i> Skills</a></li>
+      <li><a href="info.html#projects"><i class="fas fa-chess-bishop"></i> Projects</a></li>
+      <li><a href="info.html#contact"><i class="fas fa-chess-king"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <div class="main">
+      <h2>♞ Vinay Kumar Sain ♞</h2>
+      <p>{ Full Stack Developer • Chess Strategist • BCA Final Year }</p>
+      <button><a href="info.html">Know More →</a></button>
+    </div>
+  </section>
+
+  <div class="chess-divider"></div>
+
+  <div class="chess-quote">Like in chess, success demands foresight, patience, and the courage to sacrifice."</div>
+
+  <div class="chess-divider"></div>
+</body>
+</html>
